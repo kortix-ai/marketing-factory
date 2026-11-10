@@ -6,6 +6,10 @@ project:
   name: "marketing-factory"
   description: The Kortix Marketing Factory, as a reference to read and adapt.
 
+# Secrets the marketing factory needs. `kortix onboard` and `kortix doctor --loops` read this list.
+env:
+  required: [GH_TOKEN, MARKETING_GITHUB_WEBHOOK_SECRET]
+
 builtin_agents:
   my_kortix: true
 

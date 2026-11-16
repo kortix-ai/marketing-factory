@@ -12,9 +12,8 @@ Paste this into Claude Code, Codex or Cursor in your repository (or your
 website's repository):
 
 ```text
-Add a Kortix marketing factory to this repository with me.
-Read https://github.com/kortix-ai/marketing-factory and adapt it to this repository.
-Set it up with the Kortix CLI, following https://kortix.com/setup.md step by step.
+Set up the Kortix Marketing Factory on this repository with me.
+Read https://kortix.com/setup.md (curl -fsSL https://kortix.com/setup.md) and follow it step by step. The template is marketing.
 Ask all your questions in one message. Never print a secret value.
 ```
 

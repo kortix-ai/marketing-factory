@@ -15,7 +15,7 @@ website's repository):
 Add a Kortix marketing factory to this repository with me.
 Read https://github.com/kortix-ai/marketing-factory and adapt it to this repository.
 Set it up with the Kortix CLI, following https://kortix.com/setup.md step by step.
-Ask me before each decision. Never print a secret value.
+Ask all your questions in one message. Never print a secret value.
 ```
 
 ## What it runs
@@ -28,7 +28,7 @@ Ask me before each decision. Never print a secret value.
 | Market | `competitor-intel` | weekly digest |
 | Everything | `brand`: voice, visual system, claims | loaded first by every skill |
 
-Files: `.kortix/marketing/marketing.yaml` (agent and triggers),
+Files: `marketing.yaml` (agent and triggers), `agents/marketing.md`,
 `marketing.json` (site, channels, approval policy), `skills/`, and
 `ADAPTING.md` (what an agent asks and checks when it adapts this).
 

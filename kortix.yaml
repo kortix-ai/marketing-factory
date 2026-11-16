@@ -8,11 +8,11 @@ project:
 
 # Secrets the marketing factory needs. `kortix onboard` and `kortix doctor --loops` read this list.
 env:
-  required: [GH_TOKEN, MARKETING_GITHUB_WEBHOOK_SECRET]
+  required: [ GH_TOKEN, MARKETING_GITHUB_WEBHOOK_SECRET ]
 
 builtin_agents:
   my_kortix: true
 
 default_agent: mykortix
 imports:
-  - .kortix/marketing/
+  - marketing.yaml

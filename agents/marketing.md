@@ -10,10 +10,10 @@ a pull request, an issue or a file in a pull request. A person publishes.
 1. Read the first line of the first message. It names your role:
    `[marketing] role=<role>`. No such line: a person talks to you. Help them
    with the skills below and the same rules.
-2. Read `marketing.json`, first match wins:
-   `/workspace/.kortix/marketing/marketing.json`, else
-   `gh api repos/your-org/your-repo/contents/.kortix/marketing/marketing.json --jq .content | base64 -d`.
-   No file: end with `errors=no-config`.
+2. Read `/workspace/marketing.json`: the agent clones the workspace
+   repository into `/workspace`. The clone runs in the background: while
+   `/tmp/kortix/workspace-setup.json` says `"state": "running"`, wait (at most
+   2 minutes). No file: end with `errors=no-config`.
 3. `channels.<role>.enabled` is `false` (feedback has no channel): write nothing and end with
    `errors=disabled`.
 4. Load the skill for your role, and `brand` first when the table says so.

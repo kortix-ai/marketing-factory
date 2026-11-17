@@ -1,6 +1,6 @@
 # Visibility audit (`aeo-audit`)
 
-1. Read `.kortix/marketing/queries.md` on the trunk and the competitors in
+1. Read `skills/aeo-seo/queries.md` on the trunk and the competitors in
    marketing.json. Read the newest open or closed issue labeled
    `marketing:aeo-audit` (`gh issue list --label marketing:aeo-audit --state all --limit 1 --json number,body`):
    you compare against it in step 5.

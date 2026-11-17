@@ -12,10 +12,9 @@ Paste this into Claude Code, Codex or Cursor in your repository (or your
 website's repository):
 
 ```text
-Add a Kortix marketing factory to this repository with me.
-Read https://github.com/kortix-ai/marketing-factory and adapt it to this repository.
-Set it up with the Kortix CLI, following https://kortix.com/setup.md step by step.
-Ask me before each decision. Never print a secret value.
+Set up the Kortix Marketing Factory on this repository with me.
+Read https://kortix.com/setup.md (curl -fsSL https://kortix.com/setup.md) and follow it step by step. The template is marketing.
+Ask all your questions in one message. Never print a secret value.
 ```
 
 ## What it runs
@@ -28,7 +27,7 @@ Ask me before each decision. Never print a secret value.
 | Market | `competitor-intel` | weekly digest |
 | Everything | `brand`: voice, visual system, claims | loaded first by every skill |
 
-Files: `.kortix/marketing/marketing.yaml` (agent and triggers),
+Files: `marketing.yaml` (agent and triggers), `agents/marketing.md`,
 `marketing.json` (site, channels, approval policy), `skills/`, and
 `ADAPTING.md` (what an agent asks and checks when it adapts this).
 

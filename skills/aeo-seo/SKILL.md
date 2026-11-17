@@ -18,7 +18,7 @@ sample, never a ranking.
 ## Inputs
 
 - `site.url`: the deployed site. `null`: end with `errors=no-site-url`.
-- `.kortix/marketing/queries.md`: the tracked questions. Still holds
+- `skills/aeo-seo/queries.md`: the tracked questions. Still holds
   `TODO(onboarding)`: end `aeo-audit` with `errors=queries-unset`.
 - `channels.competitor-intel.competitors`: the competitor domains.
 - Tools: `web_search` and `scrape_webpage` (Kortix tools), `curl`,

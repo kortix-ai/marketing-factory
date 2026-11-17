@@ -17,10 +17,10 @@
     "analytics": null
   },
   "brand": {
-    "skill": ".kortix/marketing/skills/brand",
-    "voice": ".kortix/marketing/skills/brand/references/voice.md",
-    "visual": ".kortix/marketing/skills/brand/references/visual.md",
-    "claims": ".kortix/marketing/skills/brand/references/claims.md",
+    "skill": "skills/brand",
+    "voice": "skills/brand/references/voice.md",
+    "visual": "skills/brand/references/visual.md",
+    "claims": "skills/brand/references/claims.md",
     "logos": [],
     "fonts": []
   },
@@ -48,7 +48,7 @@
     },
     "aeo-audit": {
       "enabled": true,
-      "queries": ".kortix/marketing/queries.md"
+      "queries": "skills/aeo-seo/queries.md"
     },
     "aeo-answer": {
       "enabled": false

@@ -3,13 +3,14 @@
 # social drafts, videos and images; AEO and SEO runs keep the site findable.
 # Every output is a pull request, an issue or a draft file. A person publishes.
 # The rules are agents/marketing.md. The settings are marketing.json.
-# Remove the template: delete this folder and its line under `imports:` in kortix.yaml.
+# Remove the template: delete this file, `marketing.json`, `agents/marketing.md`, the skill folders below,
+# and its line under `imports:` in kortix.yaml.
 
 agents:
   marketing:
     description: "The Marketing Factory: content (changelog, blog posts, social drafts, videos, on-brand images), AEO, SEO and GEO, performance marketing, competitor digests. Drafts and proposals only; a person publishes and changes spend."
     mode: primary
-    prompt_file: .kortix/marketing/agents/marketing.md
+    prompt_file: agents/marketing.md
     skills: [brand, changelog, blog-post, social, video, design, aeo-seo, competitor-intel, performance, kortix-cli, kortix-connectors]
     secrets: "*"
     connectors: "*"
@@ -25,15 +26,15 @@ agents:
       - workspace.trigger.read
 
 skills:
-  brand: .kortix/marketing/skills/brand
-  changelog: .kortix/marketing/skills/changelog
-  blog-post: .kortix/marketing/skills/blog-post
-  social: .kortix/marketing/skills/social
-  video: .kortix/marketing/skills/video
-  design: .kortix/marketing/skills/design
-  aeo-seo: .kortix/marketing/skills/aeo-seo
-  competitor-intel: .kortix/marketing/skills/competitor-intel
-  performance: .kortix/marketing/skills/performance
+  brand: skills/brand
+  changelog: skills/changelog
+  blog-post: skills/blog-post
+  social: skills/social
+  video: skills/video
+  design: skills/design
+  aeo-seo: skills/aeo-seo
+  competitor-intel: skills/competitor-intel
+  performance: skills/performance
 
 triggers:
   # ── Changelog: every merged pull request, and a daily sweep for direct pushes ──
